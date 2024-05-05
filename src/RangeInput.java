@@ -8,7 +8,7 @@ public class RangeInput {
     MycurrentTemperature();
 }
 
-    public void MycurrentTemperature() {
+    private void MycurrentTemperature() {
         currentTemperature = (maxTemperature + minTemperature) / 2;
     }
 
@@ -19,10 +19,10 @@ public class RangeInput {
         MycurrentTemperature();
     }
     public void Up(){
-        currentTemperature=Math.min(currentTemperature+1,maxTemperature);
+        currentTemperature=Math.min(currentTemperature + 1,maxTemperature);
     }
     public void Down(){
-        currentTemperature=Math.max(currentTemperature-1,minTemperature);
+        currentTemperature=Math.max(currentTemperature - 1,minTemperature);
     }
 
     public int getCurrentTemperature() {

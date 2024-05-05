@@ -31,6 +31,6 @@ class RangeInputTest {
     }
 
     @Test
-    void getCurrentTemperatureForD1() {
+    void getCurrentTemperatureForDriver1() {
     }
 }

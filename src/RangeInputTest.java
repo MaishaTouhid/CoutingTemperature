@@ -3,7 +3,7 @@ import org.junit.jupiter.api.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class RangeInputTest {
-    RangeInput passengerTemperature1,passengerTemperature2,driverTemperature;
+    RangeInput passengerTemperature1, passengerTemperature2, driverTemperature;
     @BeforeEach
     void setUp(){
         passengerTemperature1 = new RangeInput(70,50);

@@ -3,8 +3,8 @@ public class RangeInput {
 
     public RangeInput(){
 
-    maxTemperature=120;
-    minTemperature=80;
+    maxTemperature = 120;
+    minTemperature = 80;
     MycurrentTemperature();
 }
 
